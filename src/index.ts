@@ -1,5 +1,5 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
-  }
+async function main() {
+  await fetch("https://google.com")
 }
+
+main();
